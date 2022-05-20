@@ -10,6 +10,13 @@ h1 {
   font-size: 3rem;
   opacity: 0.8;
 }
+/* @media(max-width:700px){
+  h1{
+  font-weight: 300;
+  font-size: 2rem;
+  } */
+
+
 h2,
 p {
   color: #658ec6;
@@ -132,6 +139,7 @@ main {
   border-radius: 2rem;
 }
 
+
 .games {
   margin: 5rem;
   display: flex;
@@ -152,6 +160,7 @@ main {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
+
 
 .progress {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
@@ -174,10 +183,71 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .percentage {
   font-weight: bold;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* ///     /////    /////      /////      /// / / //  / / */
+@media(max-width:600px){
+  h1{
+    font-weight: 600;
+    font-size: 2rem;
+    }
+h2{
+  font-size: 1rem;
+}
+p{
+  font-weight: 100;
+}
+.games{
+margin: 1rem;
+}
+.card{
+font-size: 10px;
+}
+
+.glass{
+  flex-wrap: wrap;
+
+}
+.circle1,
+.circle2 {
+  background: white;
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.pro img {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+}
+.pro h2 {
+  width: 20%;
+  color: white;
+  font-weight: 400;
+}
+}
+
+
